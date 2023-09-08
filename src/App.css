@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "Lucky-Dino";
+  src: local("AirbnbCerealMedium"),
+    url("../public/fonts/LuckyDino-3z6Ay.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chela One"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/Chewy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Paytone One"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/PaytoneOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.hero-title {
+  font-family: "Lucky-Dino", Fallback, sans-serif;
+}
+.Paytone-One {
+  font-family: "Paytone One", Fallback, sans-serif;
+}
+.Chela-One {
+  font-family: "Chela One", Fallback, sans-serif;
+}
