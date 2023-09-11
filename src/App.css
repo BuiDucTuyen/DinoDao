@@ -37,30 +37,30 @@
   }
 }
 @font-face {
-  font-family: "Lucky-Dino";
+  font-family: "Lucky Dino";
   src: local("AirbnbCerealMedium"),
     url("../public/fonts/LuckyDino-3z6Ay.otf") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Chela One"; /*Can be any text*/
+  font-family: "Chela One"; 
   src: local("AirbnbCerealLight"),
-    url("./fonts/Chewy-Regular.ttf") format("truetype");
+    url("../public/fonts/Chewy-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Paytone One"; /*Can be any text*/
+  font-family: "Paytone One"; 
   src: local("AirbnbCerealLight"),
-    url("./fonts/PaytoneOne-Regular.ttf") format("truetype");
+    url("../public/fonts/PaytoneOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 
 .hero-title {
-  font-family: "Lucky-Dino", Fallback, sans-serif;
+  font-family: "Lucky Dino", Fallback, sans-serif;
 }
 .Paytone-One {
   font-family: "Paytone One", Fallback, sans-serif;

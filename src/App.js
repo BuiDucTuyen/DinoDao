@@ -7,9 +7,6 @@ import Roadmap from "./Components/Roadmap";
 import Nft from "./Components/Nft";
 import Partnership from "./Components/Partnership";
 import DinoDao1 from "./Components/DinoDao1";
-import "./fonts/Chewy-Regular.ttf";
-import "./fonts/LuckyDino-3z6Ay.otf"
-import "./fonts/PaytoneOne-Regular.ttf"
 
 function App() {
   return (

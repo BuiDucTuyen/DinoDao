@@ -24,24 +24,24 @@ const DinoDao = () => {
             Partnership
           </a>
           <button className="pt-6 pl-[860px]">
-          <img className="" src="Group.svg" alt="background" />
+            <img className="" src="Group.svg" alt="background" />
           </button>
           <button className=" ">
-          <img className="" src="Group 6.svg" alt="background" />
+            <img className="" src="Group 6.svg" alt="background" />
           </button>
         </div>
         <img className="pl-[200px]" src="Top.svg" alt="" />
       </div>
 
       <div className=" relative text-right mx-auto max-w-[1440px]">
-        <p className="hero-title text-[120px]  pr-[250px] text-[#007A2A]">
+        <p className="hero-title text-[120px] pt-28 pr-64  text-[#007A2A]">
           DinoDao
         </p>
-        <p className=" Paytone-One text-[25px] text-center pl-[300px] pd-[10px]">
+        <p className=" Paytone-One text-[25px] text-center pl-96  ">
           Our new whitepaper is here! Click the
           <br /> button to read and explore!
         </p>
-        <button class="Paytone-One rounded-full bg-[#007A2A] mr-[400px] mt-[16px]  text-white w-[151px] h-[50px] text-[29px] ">
+        <button class="Paytone-One rounded-full bg-[#007A2A] mt-10 mr-96   text-white w-[151px] h-[50px] text-[29px] ">
           Join now
         </button>
       </div>

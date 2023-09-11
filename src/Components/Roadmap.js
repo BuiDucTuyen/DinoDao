@@ -3,14 +3,15 @@ import React from "react";
 const Roadmap = () => {
   return (
     <section className="relative">
-      <p className="Chela-One text-top absolute text-[80px] pt-[20px] pl-[500px] text-black ">
-        Roadmap
-      </p>
-      <img className="" src="Group 21.svg" alt="background" />
+      <div className="text-center Chela-One text-top absolute text-[80px] pt-10  text-black w-full">
+        <p className=" ">Roadmap</p>
+      </div>
 
-      <p className="text-top absolute text-[80px] pt-[10px] text-black ">
-        Roadmap
-      </p>
+      <img
+        className="w-full h-auto max-w-full"
+        src="Group 21.svg"
+        alt="background"
+      />
     </section>
   );
 };
