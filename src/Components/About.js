@@ -2,14 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className=" bg-aboutBg bg-cover bg-no-repeat px-4  p-2 h-screen relative">
-      <div className=" relative text-right mx-auto max-w-[1440px]">
-        <p className=" Chela-One text-[80px] pt-14  flex justify-center mx-au ">About</p>
-        <p className="hero-title text-[120px] pt-14 flex justify-center  text-[#007A2A]">
+    <section className="bg-aboutBg bg-no-repeat bg-center md:bg-cover px-4 p-2 h-screen relative">
+      <div className="relative text-center mx-auto">
+        <p className="Chela-One text-[8vw] md:text-[80px] pt-14 flex justify-center mx-auto">
+          About
+        </p>
+        <p className="hero-title text-[12vw] md:text-[120px] pt-14 flex justify-center text-[#007A2A]">
           DinoDao
         </p>
-        <p className="Paytone-One text-[20px] text-center pt-20">
-          <span className= "text-green-600 ">DiNO</span> is a community-driven and
+        <p className="Paytone-One text-[2vw] md:text-[20px] text-center pt-20">
+          <span className="text-green-600">DiNO</span> is a community-driven and
           100% fairly launched defi-based
           <br /> meme token that believes in fair distribution,
           decentralization, and the <br /> real-life utility.{" "}

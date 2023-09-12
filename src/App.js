@@ -7,20 +7,22 @@ import Roadmap from "./Components/Roadmap";
 import Nft from "./Components/Nft";
 import Partnership from "./Components/Partnership";
 import DinoDao1 from "./Components/DinoDao1";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <DinoDao />
-      <About/>
-      <Tokenomics/>
-      <Roadmap/>
-      <Nft/>
-      <Partnership/>
-      <DinoDao1></DinoDao1>
-      
-
-    </div>
+    <main>
+      <div className="App">
+        <Navbar />
+        <DinoDao />
+        <About />
+        <Tokenomics />
+        <Roadmap />
+        <Nft />
+        <Partnership />
+        <DinoDao1></DinoDao1>
+      </div>
+    </main>
   );
 }
 
