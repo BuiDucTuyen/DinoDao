@@ -3,7 +3,7 @@ import React from "react";
 const DinoDao1 = () => {
   return (
     <section className=" relative">
-      <div className="absolute flex flex-col h-full 2xl:pl-[20%] 2xl:pt-5 lg:pl-[30%] pl-5 pt-3 sm:pt-5 sm:pl-[20%] md:pt-5 md:pl-[25%] ">
+      <div className="absolute flex flex-col   h-full 2xl:pl-[30%] 2xl:pt-5 lg:pl-[30%] pl-5 pt-3 sm:pt-5 sm:pl-[20%] md:pt-5 md:pl-[25%] ">
         <p className="hero-title text-white 2xl:text-[130px] 2xl:pt-5 lg:text-[80px] lg:pt-5 text-[35px] sm:text-[44px] md:text-[50px]">
           DinoDAO
         </p>
@@ -30,7 +30,7 @@ const DinoDao1 = () => {
               t.me/DiNoDaoAnnouncement
             </a>
           </div>
-          <div className="flex Chela-One items-center 2xl:gap-[10px] lg:gap-[10px] gap-1">
+          <div className="flex Chela-One items-center 2xl:gap-[10px] lg:gap-[10px] gap-1 ">
             <img className=" lg:w-5  w-3" src="Vector.svg" alt="DinoDao Logo" />
             <a href="#" target="">
               t.me/DiNoDaoOfficialCommunity
@@ -39,7 +39,6 @@ const DinoDao1 = () => {
         </div>
       </div>
 
-     
       <img
         className="w-full h-auto max-w-full"
         src="Group 23.svg"

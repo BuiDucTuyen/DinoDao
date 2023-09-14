@@ -8,7 +8,7 @@ const Navbar = () => {
         <p className="hero-title text-[15px] sm:text-[25px] md:text-[28px] lg:text-[35px] xl:text-[50px] 2xl:text-[65px]   text-[#007A2A]">
           DinoDao
         </p>
-        <ul className="flex items-center gap-1 sm:gap-2 lg:gap-3 xl:gap-7 2xl:gap-6">
+        <ul className="flex items-center gap-1 sm:gap-2 lg:gap-3 xl:gap-7 2xl:gap-">
           <li className="Chela-One text-[5px] sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
             <a href="#">About</a>
           </li>
