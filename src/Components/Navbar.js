@@ -3,26 +3,44 @@ import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <nav className="absolute pt-10 left-0 top-0 z-50 w-full md:w-[50%] mx-auto right-0 px-4">
-      <div className="flex items-center bg-white rounded-2xl px-5 md:px-10 py-4 md:py-6 h-[8vw] md:h-[60px] gap-4 md:gap-6">
-        <p className="hero-title text-[8vw] md:text-[40px] text-[#007A2A]">
+    <nav className="absolute pt-2 left-0 top-0 z-50 w-full mx-auto right-0 px-8 sm:px-10 md:px-[60px] lg:px-[80px] 2xl:px-[14%]">
+      <div className="flex items-center justify-center bg-white rounded-2xl px-1  py-1  h-[5vw] gap-1 sm:gap-3 lg:px-5 lg:gap-4 xl:gap-8 2xl:gap-5 2xl:px-2">
+        <p className="hero-title text-[15px] sm:text-[25px] md:text-[28px] lg:text-[35px] xl:text-[50px] 2xl:text-[65px]   text-[#007A2A]">
           DinoDao
         </p>
-        <ul className="md:flex items-center gap-4 hidden">
-          <li className="Chela-One text-[4vw] md:text-[22px]">About</li>
-          <li className="Chela-One text-[4vw] md:text-[22px]">Tokenomic</li>
-          <li className="Chela-One text-[4vw] md:text-[22px]">Roadmap</li>
-          <li className="Chela-One text-[4vw] md:text-[22px]">DinoNFT</li>
-          <li className="Chela-One text-[4vw] md:text-[22px]">Partnership</li>
-          <li>
-            <button>
-              <img src="Group.svg" alt="background" />
-            </button>
+        <ul className="flex items-center gap-1 sm:gap-2 lg:gap-3 xl:gap-7 2xl:gap-6">
+          <li className="Chela-One text-[5px] sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
+            <a href="#">About</a>
+          </li>
+          <li className="Chela-One text-[5px]  sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
+            <a href="#">Tokenomic</a>
+          </li>
+          <li className="Chela-One text-[5px]  sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
+            <a href="#">Roadmap</a>
+          </li>
+          <li className="Chela-One text-[5px] sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
+            <a href="#">DinoNTF</a>
+          </li>
+          <li className="Chela-One text-[5px] sm:text-[15px] md:text-[18px] lg:text-[22px] xl:text-[25px] 2xl:text-[30px]">
+            <a href="#">Partnership</a>
           </li>
           <li>
-            <button>
-              <img src="Group 6.svg" alt="background" />
-            </button>
+            <a href="#">
+              <img
+                className="w-20 sm:w-16 lg:w-[90px] xl:w-[100px] 2xl:w-[120px]"
+                src="Group.svg"
+                alt="background"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                className="w-20 sm:w-16 lg:w-[90px] xl:w-[100px] 2xl:w-[120px]"
+                src="Group 6.svg"
+                alt="background"
+              />
+            </a>
           </li>
         </ul>
       </div>

@@ -2,11 +2,17 @@ import React from "react";
 
 const Partnership = () => {
   return (
-    <section className="bg-partnershipBg bg-no-repeat bg-center md:bg-cover h-screen relative">
-      <div className="Chela-One relative text-right mx-auto">
-        <p className="text-[80px] text-center pt-16">Partnership</p>
-      </div>
-    </section>
+    <section className="relative">
+    <div className="text-center Chela-One text-top absolute 2xl:text-[80px] 2xl:pt-10 xl:text-[80px] xl:pt-8 md:pt-5 md:text-[40px] min-[375px]:text-[20px] min-[375px]:pt-2     text-black w-full" >
+      <p className=" ">Partnership</p>
+    </div>
+
+    <img
+      className="w-full h-auto max-w-full"
+      src="Group 20.svg"
+      alt="background"
+    />
+  </section>
   );
 };
 

@@ -13,8 +13,10 @@ function App() {
   return (
     <main>
       <div className="App">
+        <div>
         <Navbar />
         <DinoDao />
+        </div>
         <About />
         <Tokenomics />
         <Roadmap />
