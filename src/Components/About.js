@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-aboutBg bg-no-repeat bg-contain h-screen ">
-      <div className="pt-[20%]">
+    <section className="bg-aboutBg bg-no-repeat bg-cover h-screen sm:bg-contain 2xl:bg-cover">
+      <div className="pt-[10%] sm:pt-[15%] lg:pt-[8%] 2xl:pt-[15%]">
         <p className="Chela-One text-[35px] sm:text-[40px] lg:text-[50px] xl:text-[60px] 2xl:text-[75px]">
           About
         </p>
