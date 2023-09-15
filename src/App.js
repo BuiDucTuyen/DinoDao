@@ -13,16 +13,13 @@ function App() {
   return (
     <main>
       <div className="App">
-        <div>
-        <Navbar />
-        <DinoDao />
-        </div>
-        <About />
-        <Tokenomics />
-        <Roadmap />
-        <Nft />
-        <Partnership />
-        <DinoDao1></DinoDao1>
+        <DinoDao/>
+        <About/>
+        <Tokenomics/>
+        <Roadmap/>
+        <Nft/>
+        <Partnership/>
+        <DinoDao1/>
       </div>
     </main>
   );
